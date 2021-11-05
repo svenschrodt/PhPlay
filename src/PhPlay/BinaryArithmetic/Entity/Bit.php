@@ -65,7 +65,7 @@ class Bit
     /**
      * @return bool
      */
-    public function isValue(): bool
+    public function getValue(): bool
     {
         return $this->value;
     }

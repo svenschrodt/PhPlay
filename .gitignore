@@ -37,8 +37,10 @@
 
 # PHPUnit
 /app/phpunit.xml
-/phpunit.xml
-
+ 
+phpunit
+phpunit.phar
+ </FilesMatch>
 # Build data
 /build/
 
