@@ -1,0 +1,13 @@
+<h1><?= $this->title ?></h1>
+<p><?= $this->main ?></p>
+<h2>List</h2>
+<ul>
+    <?php
+    foreach ($this->list as $item) :
+    echo "<li>{$item}</li>\n";
+    endforeach;
+
+    ?>
+
+</ul>
+<footer>© 2021<?= $this->author ?></footer>
